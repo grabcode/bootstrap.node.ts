@@ -1,0 +1,24 @@
+{
+  "name": "appName",
+  "version": "1.0.0",
+  "description": "App Name",
+  "main": "app.js",
+  "scripts": {
+    "postinstall": "tsd install; tsc",
+    "dev": "nodemon bin/app.js --watch bin",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexandre Girard",
+  "license": "ISC",
+  "repository": {},
+  "devDependencies": {},
+  "dependencies": {
+    "body-parser": "1.14.1",
+    "ejs": "2.3.4",
+    "errorhandler": "1.4.2",
+    "express": "4.13.3",
+    "jade": "1.11.0",
+    "method-override": "2.3.5",
+    "source-map-support": "0.3.2"
+  }
+}
